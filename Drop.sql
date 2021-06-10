@@ -1,0 +1,40 @@
+drop table ARRANQUE cascade constraints;
+drop table ARRANQUES_JOCKEY_TAB cascade constraints;
+drop table CARRERA cascade constraints;
+drop table ENTRENA_TAB cascade constraints;
+drop table ENTRENADOR cascade constraints;
+drop table JOCKEY cascade constraints;
+drop table POSICIONES_TAB cascade constraints;
+drop table PERSONA cascade constraints;
+drop table CABALLO cascade constraints;
+drop table DUENO cascade constraints;
+drop table EN_CARRERA_TAB cascade constraints;
+drop table ES_DUENO_TAB cascade constraints;
+drop table PROPIEDAD cascade constraints;
+drop table PROPIEDAD_DE_TAB cascade constraints;
+
+drop TYPE ARR_REF_CABALLO Force;
+drop TYPE ARR_REF_dueno Force;
+drop type carrera_t force;
+drop type dueno_t;
+drop TYPE T_E Force;
+drop TYPE ARR_REF_ARRANQUE Force;
+drop TYPE PERSONA_T Force;
+drop TYPE ENTRENADOR_T Force;
+drop TYPE JOCKEY_T Force;
+drop TYPE PROPIEDAD_T Force;
+drop TYPE CABALLO_T Force;
+drop TYPE ARRANQUE_T Force;
+
+drop TRIGGER INSERT_ENTRENADOR ;
+drop TRIGGER INSERT_JOCKEY ;
+drop TRIGGER INSERT_CARRERA ;
+drop TRIGGER INSERT_CABALLO ;
+drop TRIGGER UPDATE_ARRANQUE ;
+
+drop view ARRANQUE_V ;
+drop view CABALLO_V ;
+drop view CARRERA_V ;
+drop view DUENO_V ;
+drop view ENTRENADOR_V ;
+drop view JOCKEY_V ;
